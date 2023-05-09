@@ -7,14 +7,26 @@ const users: User[] = [
   {
     id: '1',
     name: '小李',
+    salary: {
+      original: 1000_000_000_000,
+      extra: 20,
+    },
   },
   {
     id: '2',
     name: '小明',
+    salary: {
+      original: 222,
+      extra: 20,
+    },
   },
   {
     id: '3',
     name: '小张',
+    salary: {
+      original: 9.9,
+      extra: 20,
+    },
   },
 ];
 
